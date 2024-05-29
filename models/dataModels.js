@@ -29,5 +29,6 @@ const DataSchema = new mongoose.Schema({
    
 },{timestamps:true})
 
-export default mongoose.model('EmpData',DataSchema)
+const dataModels = mongoose.model('EmpData',DataSchema)
+export default dataModels;
 
